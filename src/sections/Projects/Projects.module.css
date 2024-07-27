@@ -1,0 +1,30 @@
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.sectionTitle{
+    display: flex;
+    justify-content: center;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.first:hover{
+    transform: scale(1.06);
+}
+@media (width<1000px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media(min-width:1000px) and (max-width:1400px){
+    .main{
+        display: flex;
+        height: 200px;
+        width: 200px;
+    }
+}
