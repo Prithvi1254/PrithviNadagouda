@@ -11,7 +11,7 @@
     flex-direction: row;
     justify-content: space-evenly;
 }
-.first:hover{
+.first img:hover{
     transform: scale(1.06);
 }
 @media (width<1000px) {
